@@ -1,8 +1,14 @@
 {
-  "name": "neurocann-ui",
+  "name": "ballad-js",
   "version": "0.1.6",
   "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
+    "build": "rm -rf ./dist && NODE_ENV=production tsc",
     "test": "jest"
   },
   "devDependencies": {
