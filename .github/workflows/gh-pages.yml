@@ -40,10 +40,6 @@ jobs:
       - name: Build
         run: |
           yarn build
-      - name: Export static files
-        run: yarn export
-      - name: Add .nojekyll file
-        run: touch ./out/.nojekyll
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
