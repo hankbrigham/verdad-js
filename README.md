@@ -100,7 +100,7 @@ const config = {
                 messageOverride: "must conform to this format: 78746-3043",
             },
         },
-    },'
+    },
 };
 
 const { valid, errorState } = validate(data, config);
@@ -109,7 +109,7 @@ console.log(errorState);
 /*
     {
         name: [],
-        email: ['email is not a valid email address', 'email must be less than 9 characters in length],
+        email: ['email is not a valid email address', 'email must be less than 9 characters in length'],
         address: {
             streetOne: [],
             streetTwo: [],
