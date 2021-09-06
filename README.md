@@ -52,9 +52,9 @@ const data = {
   address: {
       streetOne: '171 Mr. Miner Road',
       streetTwo: '',
-      city: 'Denver'
+      city: 'Denver',
       state: 'CO',
-      zipCode: 80030'
+      zipCode: 80030',
   }
 };
 
@@ -109,7 +109,7 @@ console.log(errorState);
 /*
     {
         name: [],
-        email: ['email is not a valid email address'],
+        email: ['email is not a valid email address', 'email must be less than 9 characters in length],
         address: {
             streetOne: [],
             streetTwo: [],
