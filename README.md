@@ -54,7 +54,7 @@ const data = {
       streetTwo: '',
       city: 'Denver',
       state: 'CO',
-      zipCode: 80030',
+      zipCode: 80030,
   }
 };
 
